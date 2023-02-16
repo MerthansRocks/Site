@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eee9e3;
+    color: #524d4b;
+}
+
+ul.navContent {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+ul.navContent li {
+    float: left;
+}
+  
+ul.navContent li a {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    color: #524d4b;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+ul.navContent li a:hover:not(.active) {
+    color: #777999;
+}
+  
+ul.navContent li a.active {
+    color: #04AA6D;
+}
+  
+ul.navContent li.right {
+    float: right;
+}
+
+header {
+    padding: 14px 16px;
+}
